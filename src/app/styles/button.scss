@@ -1,0 +1,166 @@
+@import "./variables.scss";
+
+// $button-bg-clicked: #4b4753;
+// $button-bg-disabled: #2E2C35;
+
+// Высота кнопки
+$button-height: 48px;
+$button-height-big: 56px;
+$button-img: 24px;
+
+// Отступы внутри кнопки
+$button-padding: 24px;
+$button-padding-big: 32px;
+$button-padding-small: 12px;
+$button-gap: 12px;
+
+// mixin эффект при наведении на кнопку
+@mixin button-hover() {
+    // Наведение на пк
+    @media (hover: hover) {
+        &:hover, &:focus-visible {
+            @content;
+        }
+    }
+
+    // Клик на телефоне
+    @media (hover: none) {
+        &:active {
+            @content;
+        }
+    }
+}
+
+
+// mixin создание кнопки с эффектами наведения
+@mixin button-style($bg-color, $hover, $color) {
+    background-color: $bg-color;
+    color: $color;
+
+    &.outline {
+        color: $bg-color;
+        background-color: transparentize($bg-color, 1);
+        border: $border-style $bg-color;
+    }
+
+    @include button-hover() {
+        background-color: $hover;
+        &.outline {
+            color: $hover;
+            background-color: transparentize($bg-color, 0.9);
+            border-color: $hover;
+        }
+    }
+}
+
+/* Обычная кнопка (Оранжевая) */
+button,
+button.orange {
+    width: fit-content;
+    min-height: $button-height;
+    padding: 0 $button-padding;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: $button-gap;
+
+    outline: none;
+    border: none;
+    border-radius: $border-radius;
+
+    overflow: hidden;
+    user-select: none;
+    cursor: pointer;
+
+    font-size: 14px;
+    text-decoration: none;
+
+    // По умолчанию кнопка оранжевая
+    @include button-style(
+        map-get($button-color, orange-bg),
+        map-get($button-color, orange-hover),
+        $text-white
+    );
+}
+
+// Синяя кнопка
+button.blue {
+    @include button-style(
+        map-get($button-color, blue-bg),
+        map-get($button-color, blue-hover),
+        $text-white
+    );
+}
+
+// Зеленая кнопка
+button.green {
+    @include button-style(
+        map-get($button-color, green-bg),
+        map-get($button-color, green-hover),
+        $text-white
+    );
+}
+
+// Желтая кнопка
+button.yellow {
+    @include button-style(
+        map-get($button-color, yellow-bg),
+        map-get($button-color, yellow-hover),
+        $text-white
+    );
+}
+
+// Красная кнопка
+button.red {
+    @include button-style(
+        map-get($button-color, red-bg),
+        map-get($button-color, red-hover),
+        $text-white
+    );
+}
+
+// Белая кнопка
+button.white {
+    @include button-style(
+        map-get($button-color, white-bg),
+        map-get($button-color, white-hover),
+        $text-white
+    );
+
+    @include button-hover() {
+        & img {
+            filter: invert(1) brightness(2);
+        }
+    }
+}
+
+// Большая кнопка
+button.big {
+    height: $button-height-big;
+    padding: 0 $button-padding-big;
+}
+
+// Маленькая кнопка (Только картинка)
+button.small {
+    padding: 0 $button-padding-small;
+}
+
+// Круглая кнопка
+button.round {
+    border-radius: 50%;
+}
+
+// Картинка в кнопке
+button img {
+    width: $button-img;
+    height: $button-img;
+}
+
+
+// Отключенная кнопка
+// button:disabled {
+//     cursor: not-allowed;
+//     color: var(--text-dark);
+//     background-color: var(--button-bg-disabled);
+// }

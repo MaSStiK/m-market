@@ -1,0 +1,67 @@
+@import "@/app/styles/variables.scss";
+
+.catalog-big-deals {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-large;
+}
+
+// Заголовок секции
+.catalog-big-deals__header {
+    display: flex;
+    gap: $gap-large;
+
+    h3 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        gap: $gap-small;
+
+        p {
+            font-size: 14px;
+        }
+
+        .header__timer {
+            height: 36px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 6px 12px;
+            background-color: $bg-timer-yellow;
+
+            font-weight: 600;
+            font-size: 16px;
+        }
+    }
+}
+
+// Внутрення часть секции
+.catalog-big-deals__inner {
+    min-height: 592px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Строка с главным товаром и grid сеткой
+.catalog-big-deals__row {
+    width: 100%;
+    // Обводка через box-shadow и скругленные края блока
+    display: flex;
+    gap: 1px;
+    border-radius: $border-radius;
+    box-shadow: 0 0 0 1px $border-color;
+    overflow: hidden;
+}
+
+
+.catalog-big-deals__grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(150px, 1fr));
+    gap: 1px;
+}

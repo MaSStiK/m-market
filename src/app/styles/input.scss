@@ -1,0 +1,44 @@
+@import "./variables.scss";
+
+/* Основной стиль инпута */
+input[type=text] {
+    display: block;
+    height: 48px;
+    padding: 14px 20px;
+
+    color: $text-black;
+    font-size: 14px;
+    text-decoration: none;
+
+    background-color: $bg-primary;
+    outline: none;
+    border: none;
+    border-radius: $border-radius;
+}
+
+input[type=text]::placeholder {
+    font-size: 14px;
+    color: $text-gray;
+}
+
+.input-wrapper {
+    height: 48px;
+    padding-right: calc(40px + 20px); // 40px отступ и 20px svg
+    position: relative;
+    overflow: hidden;
+    background-color: $bg-primary;
+    border-radius: $border-radius;
+
+    input[type=text] {
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    img {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        translate: 0 -50%;
+    }
+}

@@ -1,0 +1,72 @@
+// Цвета задних фонов блоков
+$bg-primary: #ffffff;
+$bg-header: #1B6392;
+$bg-footer: #191c1f;
+$bg-timer-yellow: #F3DE6D;
+
+// Цвета кнопок
+$button-color: (
+    orange-bg: #FA8232, // По умолчанию
+    orange-hover: #DE732D,
+    blue-bg: #2DA5F3,
+    blue-hover: #2484C2,
+    green-bg: #2DB224,
+    green-hover: #248E1D,
+    yellow-bg: #EBC80C,
+    yellow-hover: #EFD33D,
+    red-bg: #EE5858,
+    red-hover: #BE4646,
+    white-bg: #FFFFFF,
+    white-hover: #FA8232,
+    tp-bg: #FFFFFF00,
+    tp-hover: #FFFFFF1F
+);
+
+// Цвета значков продуктов
+$badge-color: (
+    hot: #EE5858,
+    out: #929FA5,
+    sale: #2DB224,
+    best: #2DA5F3,
+    discount: #EFD33D
+);
+
+
+// Размеры текста
+$h1: 24px;
+$h2: 22px;
+$h3: 36px;
+$h4: 24px;
+$h5: 20px;
+$p: 18px;
+$p-small: 12px;
+
+// Цвет текста
+$text-white: #ffffff;
+$text-black: #191C1F;
+$text-gray: #77878F;
+$text-light-gray: #ADB7BC;
+$text-blue: #2DA5F3;
+$text-dark-blue: #2484C2;
+$text-yellow: #EBC80C;
+
+// border
+$border-style: 1px solid;
+$border-color: #E4E7E9; 
+
+// Закругление болоков
+$border-radius: 4px;
+
+// Отступы
+$gap-tiny: 8px;
+$gap-small: 12px;
+$gap-medium: 16px;
+$gap-large: 24px;
+$gap-article: 60px; // Отступ между секциями
+
+// Ширина контента
+$content-width: 1320px + ($gap-medium * 2);
+
+// Высота header
+$header-height-info: 52px;
+$header-height: 88px;

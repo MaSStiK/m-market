@@ -1,0 +1,86 @@
+
+@import "./variables.scss";
+
+* {
+    font-weight: 500;
+    font-size: $p;
+    color: $text-black;
+    text-decoration: none;
+    word-break: break-word;
+}
+
+/* Стили для текста */
+h1, .h1 {
+    font-size: $h1;
+    font-weight: 700;
+}
+
+h2, .h2 {
+    font-size: $h2;
+    font-weight: 700;
+}
+
+h3, .h3 {
+    font-size: $h3;
+    font-weight: 700;
+}
+
+h4, .h4 {
+    font-size: $h4;
+    font-weight: 700;
+}
+
+h5, .h5 {
+    font-size: $h5;
+    font-weight: 700;
+}
+
+p, .p {
+    font-size: $p;
+    font-weight: 500;
+    white-space: pre-wrap;
+}
+
+small, .small {
+    font-size: $p-small;
+    font-weight: 300;
+}
+
+strong, .strong {
+    font-weight: 700;
+}
+
+/* Лейбл инпута */
+label {
+    font-size: $p;
+}
+
+
+/* Стили для цвета текста */
+.text-white {
+    color: $text-white;
+}
+
+.text-black {
+    color: $text-black;
+}
+
+.text-gray {
+    color: $text-gray;
+}
+
+.text-light-gray {
+    color: $text-light-gray;
+}
+
+.text-blue {
+    color: $text-blue;
+}
+
+.text-dark-blue {
+    color: $text-dark-blue;
+}
+
+.text-yellow {
+    color: $text-yellow;
+}

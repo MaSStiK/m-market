@@ -1,0 +1,54 @@
+@import "@/app/styles/variables.scss";
+
+// Значок сверху слева в продукте
+.product__badge {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-tiny;
+    padding-right: $gap-small;
+
+    position: absolute;
+    top: $gap-small;
+    left: $gap-small;
+    z-index: 2;
+
+    .badge {
+        width: fit-content;
+        padding: 5px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        font-weight: 600;
+        font-size: 11px;
+        text-transform: uppercase;
+        color: $text-white;
+    }
+
+    .badge.hot {
+        background-color: map-get($badge-color, hot);
+    }
+
+    .badge.out {
+        background-color: map-get($badge-color, out);
+    }
+
+    .badge.sale {
+        background-color: map-get($badge-color, sale);
+    }
+
+    .badge.best {
+        background-color: map-get($badge-color, best);
+    }
+
+    .badge.discount {
+        background-color: map-get($badge-color, discount);
+        color: $text-black;
+    }
+}
+
+// Большая карточка товара
+.product.big .product__badge {
+    top: $gap-medium;
+    left: $gap-medium;
+}

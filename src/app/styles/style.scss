@@ -1,0 +1,33 @@
+@import "./variables.scss";
+@import "./text.scss", "./button.scss", "./input.scss";
+
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+    list-style-type: none;
+    scroll-behavior: smooth;
+    color-scheme: light;
+
+    transition: .2s all;
+}
+
+main {
+    min-height: 80vh;
+    padding-top: $gap-large;
+    background-color: $bg-primary;
+}
+
+article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: $gap-article;
+}
+
+section {
+    width: min($content-width, 100%);
+    padding: 0 $gap-medium;
+    margin: 0 auto;
+}
