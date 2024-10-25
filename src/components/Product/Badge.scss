@@ -1,11 +1,10 @@
-@import "@/app/styles/variables.scss";
+@use "@/app/styles/variables.scss" as *;
 
-// Значок сверху слева в продукте
+// Бейдж сверху слева в продукте
 .product__badge {
     display: flex;
     flex-direction: column;
     gap: $gap-tiny;
-    padding-right: $gap-small;
 
     position: absolute;
     top: $gap-small;
@@ -18,33 +17,47 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        border-radius: $border-radius-tiny;
         
         font-weight: 600;
         font-size: 11px;
         text-transform: uppercase;
         color: $text-white;
-    }
 
-    .badge.hot {
-        background-color: map-get($badge-color, hot);
-    }
+        &.hot {
+            background-color: map-get($badge-color, hot);
+        }
 
-    .badge.out {
-        background-color: map-get($badge-color, out);
-    }
+        &.out {
+            background-color: map-get($badge-color, out);
+        }
 
-    .badge.sale {
-        background-color: map-get($badge-color, sale);
-    }
+        &.sale {
+            background-color: map-get($badge-color, sale);
+        }
 
-    .badge.best {
-        background-color: map-get($badge-color, best);
-    }
+        &.best {
+            background-color: map-get($badge-color, best);
+        }
 
-    .badge.discount {
-        background-color: map-get($badge-color, discount);
-        color: $text-black;
+        &.discount {
+            background-color: map-get($badge-color, discount);
+            color: $text-black;
+        }
+
+        // Большой бейдж
+        &.big {
+            padding: 8px 16px;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 16px;
+        }
     }
+}
+
+// Если в блоке продукта - padding справа для отступа при сжатии блока
+.product .product__badge {
+    padding-right: $gap-small;
 }
 
 // Большая карточка товара

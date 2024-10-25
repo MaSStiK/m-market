@@ -1,4 +1,4 @@
-@import "@/app/styles/variables.scss";
+@use "@/app/styles/variables.scss" as *;
 
 .catalog-big-deals {
     display: flex;
@@ -32,6 +32,7 @@
             align-items: center;
             padding: 6px 12px;
             background-color: $bg-timer-yellow;
+            border-radius: $border-radius-tiny;
 
             font-weight: 600;
             font-size: 16px;

@@ -1,4 +1,4 @@
-@import "@/app/styles/variables.scss";
+@use "@/app/styles/variables.scss" as *;
 
 footer {
     height: 472px;
@@ -15,8 +15,4 @@ footer {
     justify-content: space-between;
 
     margin: 0 auto;
-}
-
-.footer-inner p {
-    color: $text-white;
 }

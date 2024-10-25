@@ -1,0 +1,178 @@
+@use "@/app/styles/variables.scss" as *;
+@use "@/components/Product/Badge.scss" as *;
+
+// Верхний блок лучшими товарами
+.catalog-top {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-large;
+}
+
+// Внутрення часть секции
+.catalog-top__inner {
+    min-height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog-top__row {
+    display: flex;
+    gap: $gap-large;
+}
+
+.catalog-top__column {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-large;
+}
+
+// Большая карточка слева
+.catalog-top__big {
+    width: min(872px, 100%);
+    height: 520px;
+    padding: 56px;
+    display: flex;
+    justify-content: space-between;
+    // gap: 36px;
+    position: relative;
+    border-radius: $border-radius-big;
+    background-color: $bg-card-gray;
+
+    .column {
+        width: min(356px, 100%);
+        margin-top: 72px;
+
+        .column__text {
+            display: flex;
+            align-items: center;
+            gap: $gap-tiny;
+
+            .line {
+                width: 24px;
+                height: 1px;
+                border: 1px solid $text-dark-blue;
+            }
+            
+            p {
+                font-size: 14px;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 650;
+            margin-top: 4px;
+        }
+
+        & > p {
+            margin-top: $gap-medium;
+        }
+        
+        button {
+            margin-top: $gap-large;
+        }
+    }
+
+    // Картинка с правой стороны
+    & > img {
+        width: 368px;
+        height: 408px;
+        anchor-name: --product-img;
+    }
+
+    // Стоимость в правом верхнем углу картинки
+    .catalog-top__big-cost {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border: 4px solid $bg-primary;
+        border-radius: 50%;
+        background-color: map-get($button-color, blue-bg);
+
+        position: absolute;
+        top: 52px;
+        right: 52px;
+
+        font-size: 22px;
+    }
+}
+
+// Две маленькие карточки справа
+.catalog-top__small {
+    width: 424px;
+    height: 248px;
+    border-radius: $border-radius-big;
+
+    // Верхняя карточка
+    &:first-of-type {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 46px;
+        position: relative;
+
+        background-color: #191C1F;
+        background-image: url("../../assets/catalog-top/product-1.png");
+        background-position: bottom right;
+        background-repeat: no-repeat;
+
+        // Summer Sales
+        p {
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: 14px;
+        }
+
+        h4 {
+            max-width: 160px;
+            font-weight: 600;
+            margin-top: 5px;
+        }
+
+        button {
+            margin-top: 18px;
+        }
+
+        // Меняем расположение бейджа
+        .product__badge {
+            position: absolute;
+            top: $gap-large;
+            right: $gap-large;
+            left: unset;
+        }
+    }
+
+    // Нижняя карточка
+    &:last-of-type {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background-color: $bg-card-gray;
+
+        .column {
+            max-width: 172px;
+
+            h4 {
+                font-weight: 600;
+            }
+    
+            // Ценник
+            p {
+                font-weight: 600;
+                font-size: 18px;
+                margin-top: $gap-small;
+            }
+    
+            button {
+                margin-top: 20px;
+            }
+        }
+    }
+}

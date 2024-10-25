@@ -1,5 +1,7 @@
-@import "./variables.scss";
-@import "./text.scss", "./button.scss", "./input.scss";
+@use "./variables.scss" as *;
+@use "./text.scss" as *;
+@use "./button.scss" as *;
+@use "./input.scss" as *;
 
 * {
     padding: 0;
@@ -10,7 +12,7 @@
     scroll-behavior: smooth;
     color-scheme: light;
 
-    transition: .2s all;
+    transition: .2s all ease-out;
 }
 
 main {

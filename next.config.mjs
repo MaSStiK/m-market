@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        domains: ["fakestoreapi.com"],
-    },
+    trailingSlash: true, // Добавляет завершающий слэш ко всем URL
 };
 
 export default nextConfig;

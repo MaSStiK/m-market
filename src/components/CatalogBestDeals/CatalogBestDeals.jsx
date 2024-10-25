@@ -1,6 +1,6 @@
 "use client"
 import { useState, useEffect } from "react"
-import Image from "next/image";
+import { useLocalization, useLang } from "@/components/Localization/Localization";
 import Product from "@/components/Product/Product";
 import CatalogDB from "@/components/Catalog"
 import Loader from "@/components/Loader/Loader";
@@ -8,14 +8,18 @@ import Loader from "@/components/Loader/Loader";
 import "./CatalogBestDeals.scss"
 
 export default function CatalogBestDeals() {
+    // Локализация
+    // const Loc = useLocalization("header")
+    const Lang = useLang()
+
     const [CatalogData, setCatalogData] = useState([])
     useEffect(() => {
         console.log("CatalogDB", CatalogDB);
         setCatalogData(CatalogDB)
     }, [])
 
-    return (<>
-        <div className="catalog-big-deals">
+    return (
+        <section className="catalog-big-deals">
             <div className="catalog-big-deals__header">
                 <h3>Best Deals</h3>
                 <div className="header">
@@ -46,6 +50,6 @@ export default function CatalogBestDeals() {
                     : <Loader number={1} />
                 }
             </div>
-        </div>
-    </>)
+        </section>
+    )
 }

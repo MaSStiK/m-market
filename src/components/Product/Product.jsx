@@ -1,4 +1,6 @@
 "use client"
+import { useLocalization, useLang } from "@/components/Localization/Localization";
+
 import Image from "next/image";
 import svgStar from "@/assets/svg/Star-yellow.svg"
 import svgHeart from "@/assets/svg/Heart.svg"
@@ -35,9 +37,13 @@ function setBadge(badges) {
 
 export default function Product({
     product,
-    badge, // Значок: hot (red), out (gray), sale (green), best (blue), discount:90% (yellow)
+    badge, // Бейдж: hot (red), out (gray), sale (green), best (blue), discount:90% (yellow)
     bigCard
 }) {
+    // Локализация
+    // const Loc = useLocalization("header")
+    const Lang = useLang()
+
     let className = "product"
     if (bigCard) {
         className += " big"
@@ -46,8 +52,8 @@ export default function Product({
     const image = require(`../../assets/catalog/${product.image}`)
 
     return (
-        <div className={className} id={`product-${product.id}`}>
-            {/* Значок */}
+        <div className={className} id={`product-${product.id}`} tabIndex="0">
+            {/* бейдж */}
             {badge && setBadge(badge)}
 
             {/* Изображение товара */}
@@ -76,7 +82,7 @@ export default function Product({
             }
 
             {/* Название товара */}
-            <h4 className="product__title" title={product.title}>{product.title}</h4>
+            <h4 className="product__title" title={product.title[Lang]}>{product.title[Lang]}</h4>
 
             {/* Блок с новой и старой ценой */}
             <div className="product__price-row">
@@ -85,7 +91,7 @@ export default function Product({
             </div>
 
             {/* Описание у большой карточки */}
-            {bigCard && <p className="text-gray product__description">{product.description}</p>}
+            {bigCard && <p className="text-gray product__description">{product.description[Lang]}</p>}
 
             {/* Кнопки у большой карточки */}
             {bigCard && 

@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <footer>
             <div className="footer-inner">
-                <p>footer</p>
+                <p className="text-white">footer</p>
             </div>
         </footer>
     )

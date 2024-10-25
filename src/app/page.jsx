@@ -1,14 +1,6 @@
-import CatalogBestDeals from "@/components/CatalogBestDeals/CatalogBestDeals";
-import "./home.css"
+import { redirect } from "next/navigation";
 
+// Редирект на каталок со страницы /
 export default function Home() {
-    return (
-        <section>
-            {/* <div>
-                <h1>best item</h1>
-            </div> */}
-
-            <CatalogBestDeals />
-        </section>
-    );
+    redirect("/en/catalog");
 }

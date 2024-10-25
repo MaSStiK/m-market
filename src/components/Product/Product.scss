@@ -1,5 +1,5 @@
-@import "@/app/styles/variables.scss";
-@import "@/app/styles/button.scss";
+@use "@/app/styles/variables.scss" as *;
+@use "@/app/styles/button.scss" as *;
 
 // Карточка товара
 .product {
@@ -11,6 +11,7 @@
 
     // box-shadow вместо border для соединения краев
     box-shadow: 0 0 0 1px $border-color;
+    outline: none;
 }
 
 // Картинка товара
@@ -47,9 +48,11 @@
 .product__title {
     overflow: hidden;
     display: -webkit-box;
+    line-clamp: 2;
     -webkit-line-clamp: 2; // Обрезка текста после 2 строк
     -webkit-box-orient: vertical;
 
+    font-weight: 500;
     font-size: 14px;
     word-spacing: -1px;
 
@@ -80,6 +83,7 @@
 
 // Описание
 .product__description {
+    font-weight: 400;
     font-size: 14px;
     margin-top: $gap-small;
 }
@@ -87,7 +91,7 @@
 // Кнопки под большой карточкой
 .product__buttons {
     display: flex;
-    gap: $gap-tiny;
+    // gap: $gap-tiny;
     justify-content: space-between;
     margin-top: auto;
 
@@ -102,6 +106,7 @@
     }
 
     button:nth-of-type(2) {
+        padding: 0 16px;
         gap: $gap-tiny;
         img {
             filter: invert(1) brightness(2);
@@ -110,6 +115,7 @@
 }
 
 // Эффект при наведении
+// Заменил $gap-medium на $gap-small для лучшего отображения hover эффекта с бейджами
 .product__hover {
     width: calc(100% - $gap-small - $gap-small);
     height: 188px;
@@ -125,17 +131,22 @@
     top: $gap-small;
     left: $gap-small;
     z-index: 3;
+
+    // Статичная ширина кнопки
+    button {
+        width: $button-height;
+    }
 }
 
 // Появление функций карточки при наведении на всю карточку
 .product:hover:not(.big) .product__hover,
-.product:focus-visible:not(.big) .product__hover {
+.product:focus-within:not(.big) .product__hover {
     opacity: 1;
 }
 
-// Скрываем значки карточки
+// Скрываем бейджи карточки при наведении на карточку
 .product:hover:not(.big) .product__badge,
-.product:focus-visible:not(.big) .product__badge {
+.product:focus-within:not(.big) .product__badge {
     opacity: 0;
 }
 

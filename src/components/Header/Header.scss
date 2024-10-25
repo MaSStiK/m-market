@@ -1,5 +1,5 @@
-@import "@/app/styles/variables.scss";
-@import "@/app/styles/button.scss";
+@use "@/app/styles/variables.scss" as *;
+@use "@/app/styles/button.scss" as *;
 
 header {
     width: 100%;
