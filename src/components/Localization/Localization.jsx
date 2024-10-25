@@ -1,15 +1,15 @@
 "use client"
 import { useParams, usePathname, redirect } from "next/navigation"
-import En from "./En"
-import Ru from "./Ru"
+import EN from "./EN"
+import RU from "./RU"
 
 export const Languages = {
     // title - Название языка при смене языка
     // data - Объект со всем текстом
-    en: {title: "English", data: En},
-    ru: {title: "Russian", data: Ru},
-    fr: {title: "French", data: En},
-    de: {title: "German", data: En},
+    en: {title: "English", data: EN},
+    ru: {title: "Russian", data: RU},
+    fr: {title: "French", data: EN},
+    de: {title: "German", data: EN},
 }
 
 export function useLocalization(category) {
