@@ -4,9 +4,9 @@ const nextConfig = {
     async redirects() {
         return [
             {
-                source: '/',
-                destination: '/en/catalog',
-                permanent: false, // Установите на true, если это постоянное перенаправление
+                source: "/",
+                destination: "/en/catalog",
+                permanent: true
             },
         ];
     },
