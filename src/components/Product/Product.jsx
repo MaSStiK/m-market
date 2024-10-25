@@ -10,7 +10,7 @@ import svgEye from "@/assets/svg/Eye-open.svg"
 import "./Product.scss"
 import "./Badge.scss"
 
-function setBadge(badges) {
+function setBadge(Loc, badges) {
     // Если badge один, а не массив - приводим к массиву
     if (!Array.isArray(badges)) {
         badges = [badges]
@@ -21,14 +21,14 @@ function setBadge(badges) {
             {badges.map((badge, i) => {
                 badge = badge.toLowerCase()
 
-                if (badge === "hot") return <p className={`badge ${badge}`} key={i}>Хит</p>
-                if (badge === "out") return <p className={`badge ${badge}`} key={i}>Нет в наличии</p>
-                if (badge === "sale") return <p className={`badge ${badge}`} key={i}>Распродажа</p>
-                if (badge === "best") return <p className={`badge ${badge}`} key={i}>Лучшие предложение</p>
+                if (badge === "hot") return <p className={`badge ${badge}`} key={i}>{Loc.badge.hot}</p>
+                if (badge === "out") return <p className={`badge ${badge}`} key={i}>{Loc.badge.out}</p>
+                if (badge === "sale") return <p className={`badge ${badge}`} key={i}>{Loc.badge.sale}</p>
+                if (badge === "best") return <p className={`badge ${badge}`} key={i}>{Loc.badge.best}</p>
 
                 if (badge.startsWith("discount")) {
                     let badgeSplit = badge.split(":")
-                    return <p className={`badge ${badgeSplit[0]}`} key={i}>{badgeSplit[1]} скидка</p>
+                    return <p className={`badge ${badgeSplit[0]}`} key={i}>{badgeSplit[1]} {Loc.badge.discount}</p>
                 }
             })}
         </div>
@@ -41,7 +41,7 @@ export default function Product({
     bigCard
 }) {
     // Локализация
-    // const Loc = useLocalization("header")
+    const Loc = useLocalization("Product")
     const Lang = useLang()
 
     let className = "product"
@@ -54,7 +54,7 @@ export default function Product({
     return (
         <div className={className} id={`product-${product.id}`} tabIndex="0">
             {/* бейдж */}
-            {badge && setBadge(badge)}
+            {badge && setBadge(Loc, badge)}
 
             {/* Изображение товара */}
             <div className="product__image">
@@ -96,21 +96,21 @@ export default function Product({
             {/* Кнопки у большой карточки */}
             {bigCard && 
                 <div className="product__buttons">
-                    <button className="outline small" title="Добавить в избранное"><Image src={svgHeart} alt="heart" /></button>
-                    <button title="Добавить в корзину">
+                    <button className="outline small" title={Loc.buttonAddToWishlist}><Image src={svgHeart} alt="heart" /></button>
+                    <button title={Loc.buttonAddToCard}>
                         <Image src={svgCart} alt="cart" />
-                        В корзину
+                        {Loc.buttonAddToCardText}
                     </button>
-                    <button className="outline small" title="Сравнить"><Image src={svgEye} alt="eye" /></button>
+                    <button className="outline small" title={Loc.buttonCompare}><Image src={svgEye} alt="eye" /></button>
                 </div>
             }
 
             {/* Блок при наведении */}
             {!bigCard && 
                 <div className="product__hover">
-                    <button className="white small round" title="Добавить в избранное"><Image src={svgHeart} alt="heart" /></button>
-                    <button className="white small round" title="Добавить в корзину"><Image src={svgCart} alt="cart" /></button>
-                    <button className="white small round" title="Сравнить"><Image src={svgEye} alt="eye" /></button>
+                    <button className="white small round" title={Loc.buttonAddToWishlist}><Image src={svgHeart} alt="heart" /></button>
+                    <button className="white small round" title={Loc.buttonAddToCard}><Image src={svgCart} alt="cart" /></button>
+                    <button className="white small round" title={Loc.buttonCompare}><Image src={svgEye} alt="eye" /></button>
                 </div>
             }
         </div>

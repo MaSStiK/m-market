@@ -8,11 +8,11 @@ import "./Dashboard.scss"
 
 export default function DashboardPage() {
     // Локализация
-    const Loc = useLocalization("dashboard")
+    const Loc = useLocalization("Dashboard")
     
     return (
         <section className="dashboard-section">
-            <h5>Здравствуйте, username</h5>
+            <h5>{Loc.helloUsername}</h5>
             <button className="orange">{Loc.button}</button>
             <button className="orange outline big">{Loc.button}</button>
             <button className="blue">{Loc.button}</button>

@@ -24,7 +24,7 @@ import "./Header-info.scss"
 export default function Header() {
     const Pathname = usePathname()
     // Локализация
-    const Loc = useLocalization("header")
+    const Loc = useLocalization("Header")
     const Lang = useLang()
 
     // Смена языка
@@ -134,7 +134,7 @@ function renderSocialMedia() {
 function renderButtonsHeaderFuncs(Loc, Lang) {
     const headerFuncs = [
         {src: svgShoppingCart, alt: Loc.funcCart, link: `/${Lang}/dashboard`},
-        {src: svgHeart, alt: Loc.funcFavorites, link: `/${Lang}/dashboard`},
+        {src: svgHeart, alt: Loc.funcWishlist, link: `/${Lang}/dashboard`},
         {src: svgUser, alt: Loc.funcDashboard, link: `/${Lang}/dashboard`},
     ]
 

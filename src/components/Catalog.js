@@ -126,97 +126,97 @@ const Catalog = [
             "fr": "Garantie de satisfaction. Retour ou échange de toute commande dans les 30 jours. Conçu et vendu par Hafeez Center aux États-Unis.",
             "de": "Zufriedenheitsgarantie. Rückgabe oder Umtausch jeder Bestellung innerhalb von 30 Tagen. Entworfen und verkauft von Hafeez Center in den USA."
         },
-        "price": 250,
+        "price": 168,
         "category": "jewelry",
-        "image": "Miniature_ring_with_micropave.png",
+        "image": "Miniature_ring_with_micropave_in_pure_gold.png",
         "rating": {
-            "rate": 4.1,
-            "count": 100
+            "rate": 3.9,
+            "count": 70
         }
     },
     {
         "id": 7,
         "title": {
-            "ru": "Наручные часы на кожаном ремешке",
-            "en": "Leather Strap Wristwatch",
-            "fr": "Montre Bracelet en Cuir",
-            "de": "Uhr mit Lederarmband"
+            "ru": "Классическое кольцо с принцессой, покрытое белым золотом",
+            "en": "Classic Princess Cut Ring in White Gold",
+            "fr": "Bague classique en or blanc avec taille princesse",
+            "de": "Klassischer Prinzessschliff-Ring aus Weißgold"
         },
         "description": {
-            "ru": "Классические и стильные наручные часы для любого мероприятия, легко сочетаются с любым нарядом.",
-            "en": "Classic and stylish wristwatch for any occasion, easily pairs with any outfit.",
-            "fr": "Montre classique et élégante pour toutes les occasions, se marie facilement avec n'importe quelle tenue.",
-            "de": "Klassische und stilvolle Armbanduhr für jeden Anlass, lässt sich leicht mit jedem Outfit kombinieren."
+            "ru": "Классическое кольцо для помолвки или свадьбы с бриллиантом для нее. Подарки, чтобы побаловать любимую на помолвку, свадьбу, годовщину, День святого Валентина...",
+            "en": "Classic engagement or wedding ring with a diamond for her. Gifts to pamper your loved one on engagements, weddings, anniversaries, Valentine's Day...",
+            "fr": "Bague classique de fiançailles ou de mariage avec un diamant pour elle. Cadeaux pour gâter votre bien-aimée lors des fiançailles, mariages, anniversaires, Saint-Valentin...",
+            "de": "Klassischer Verlobungs- oder Ehering mit einem Diamanten für sie. Geschenke, um Ihre Liebste bei Verlobungen, Hochzeiten, Jahrestagen, Valentinstag zu verwöhnen..."
         },
-        "price": 125,
-        "category": "watches",
-        "image": "Leather_Strap_Wristwatch.png",
+        "price": 79.99,
+        "category": "jewelry",
+        "image": "Classic_princess_ring_white_gold_plated.png",
         "rating": {
-            "rate": 4.4,
-            "count": 260
+            "rate": 3,
+            "count": 400
         }
     },
     {
         "id": 8,
         "title": {
-            "ru": "Умные часы с функцией отслеживания здоровья",
-            "en": "Smart Watch with Health Tracking Features",
-            "fr": "Montre Intelligente avec Fonctionnalités de Suivi de la Santé",
-            "de": "Smartwatch mit Gesundheitsüberwachungsfunktionen"
+            "ru": "Серьги Pierced Owl из розового золота с двойным расширяющимся туннелем из нержавеющей стали",
+            "en": "Pierced Owl Rose Gold Double Flared Tunnel Earrings in Stainless Steel",
+            "fr": "Boucles d'oreilles Pierced Owl en acier inoxydable avec tunnel évasé en or rose",
+            "de": "Pierced Owl Roségold Doppel-Flared Tunnel-Ohrringe aus Edelstahl"
         },
         "description": {
-            "ru": "Отслеживайте свое здоровье с помощью этих современных смарт-часов, которые предлагают разнообразные функции для фитнеса и здоровья.",
-            "en": "Track your health with these modern smartwatches that offer a variety of fitness and health tracking features.",
-            "fr": "Suivez votre santé avec ces montres intelligentes modernes qui offrent une variété de fonctionnalités de suivi de la condition physique et de la santé.",
-            "de": "Verfolgen Sie Ihre Gesundheit mit diesen modernen Smartwatches, die eine Vielzahl von Fitness- und Gesundheitsüberwachungsfunktionen bieten."
+            "ru": "Серьги с двойным расширяющимся туннелем, покрытые розовым золотом. Изготовлены из нержавеющей стали марки 316L",
+            "en": "Double flared tunnel earrings with rose gold plating. Made from 316L stainless steel.",
+            "fr": "Boucles d'oreilles à tunnel évasé avec placage en or rose. Fabriquées en acier inoxydable 316L.",
+            "de": "Doppel-geflairte Tunnel-Ohrringe mit Roségold-Beschichtung. Hergestellt aus Edelstahl 316L."
         },
-        "price": 299.99,
-        "category": "watches",
-        "image": "Smart_Watch_with_Health_Tracking.png",
+        "price": 10.99,
+        "category": "jewelry",
+        "image": "Pierced_Owl_Earrings.png",
         "rating": {
-            "rate": 4.8,
-            "count": 150
+            "rate": 1.9,
+            "count": 100
         }
     },
     {
         "id": 9,
         "title": {
-            "ru": "Электрическая зубная щетка",
-            "en": "Electric Toothbrush",
-            "fr": "Brosse à Dents Électrique",
-            "de": "Elektrische Zahnbürste"
+            "ru": "WD 2TB Elements портативный внешний жесткий диск - USB 3.0",
+            "en": "WD 2TB Elements Portable External Hard Drive - USB 3.0",
+            "fr": "WD 2 To Elements Disque Dur Externe Portable - USB 3.0",
+            "de": "WD 2TB Elements Tragbare Externe Festplatte - USB 3.0"
         },
         "description": {
-            "ru": "Эта электрическая зубная щетка обеспечивает превосходную чистку зубов, удаляя больше налета по сравнению с обычными зубными щетками.",
-            "en": "This electric toothbrush provides superior teeth cleaning, removing more plaque compared to regular toothbrushes.",
-            "fr": "Cette brosse à dents électrique offre un nettoyage supérieur des dents, éliminant plus de plaque que les brosses à dents ordinaires.",
-            "de": "Diese elektrische Zahnbürste sorgt für eine überlegene Zahnreinigung, indem sie mehr Plaque entfernt als herkömmliche Zahnbürsten."
+            "ru": "Совместимость с USB 3.0 и USB 2.0. Быстрая передача данных. Улучшение производительности ПК. Большая емкость. Форматирован в NTFS для Windows 10, Windows 8.1, Windows 7. Может потребоваться повторное форматирование для других операционных систем. Совместимость может зависеть от конфигурации оборудования и операционной системы пользователя.",
+            "en": "Compatible with USB 3.0 and USB 2.0. Fast data transfer. Improves PC performance. Large capacity. Formatted in NTFS for Windows 10, Windows 8.1, Windows 7. May require reformatting for other operating systems. Compatibility may depend on the user's hardware configuration and operating system.",
+            "fr": "Compatible avec USB 3.0 et USB 2.0. Transfert de données rapide. Améliore les performances du PC. Grande capacité. Formaté en NTFS pour Windows 10, Windows 8.1, Windows 7. Peut nécessiter un reformatage pour d'autres systèmes d'exploitation. La compatibilité peut dépendre de la configuration matérielle et du système d'exploitation de l'utilisateur.",
+            "de": "Kompatibel mit USB 3.0 und USB 2.0. Schnelle Datenübertragung. Verbessert die PC-Leistung. Große Kapazität. Formatiert in NTFS für Windows 10, Windows 8.1, Windows 7. Möglicherweise ist eine Neuformatierung für andere Betriebssysteme erforderlich. Die Kompatibilität kann von der Hardwarekonfiguration und dem Betriebssystem des Benutzers abhängen."
         },
-        "price": 79.99,
-        "category": "health_care",
-        "image": "Electric_Toothbrush.png",
+        "price": 64,
+        "category": "electronics",
+        "image": "WD_2TB_Elements_portable_external_hard_drive.png",
         "rating": {
-            "rate": 4.5,
-            "count": 200
+            "rate": 3.3,
+            "count": 203
         }
     },
     {
         "id": 10,
         "title": {
-            "ru": "Ароматическая свеча с натуральными ингредиентами",
-            "en": "Scented Candle with Natural Ingredients",
-            "fr": "Bougie Parfumée avec Ingrédients Naturels",
-            "de": "Duftkerze mit natürlichen Zutaten"
+            "ru": "SanDisk SSD PLUS 1TB Внутренний SSD - SATA III 6 Гб/с",
+            "en": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+            "fr": "SanDisk SSD PLUS 1 To SSD interne - SATA III 6 Gb/s",
+            "de": "SanDisk SSD PLUS 1TB Interne SSD - SATA III 6 Gb/s"
         },
         "description": {
-            "ru": "Эта ароматическая свеча, изготовленная из натуральных ингредиентов, создаст уютную атмосферу в вашем доме.",
-            "en": "This scented candle made from natural ingredients will create a cozy atmosphere in your home.",
-            "fr": "Cette bougie parfumée faite d'ingrédients naturels créera une atmosphère chaleureuse dans votre maison.",
-            "de": "Diese Duftkerze aus natürlichen Zutaten schafft eine gemütliche Atmosphäre in Ihrem Zuhause."
+            "ru": "Простое обновление для более быстрого запуска, завершения работы, загрузки приложений и отклика (по сравнению с жестким диском SATA 2,5” с 5400 об/мин; на основе опубликованных спецификаций и внутренних тестов с использованием PCMark Vantage) Улучшенная производительность записи, идеально подходящая для типичных рабочих нагрузок ПК. Идеальный баланс производительности и надёжности. Скорость чтения/записи до 535МБ/с/450МБ/с (на основе внутренних тестов; производительность может варьироваться в зависимости от объёма диска, устройства хоста, операционной системы и приложения).",
+            "en": "Simple upgrade for faster boot-up, shutdown, application load, and response times (compared to a 2.5” 5400 RPM SATA hard drive; based on published specifications and internal tests using PCMark Vantage). Improved write performance, ideal for typical PC workloads. Perfect balance of performance and reliability. Read/write speeds of up to 535MB/s/450MB/s (based on internal testing; performance may vary depending on drive capacity, host device, operating system, and application).",
+            "fr": "Mise à niveau simple pour un démarrage, un arrêt, un chargement d'application et des temps de réponse plus rapides (par rapport à un disque dur SATA 2,5” 5400 tr/min ; basé sur des spécifications publiées et des tests internes utilisant PCMark Vantage). Performance d'écriture améliorée, idéale pour des charges de travail informatiques typiques. Équilibre parfait entre performance et fiabilité. Vitesses de lecture/écriture allant jusqu'à 535 Mo/s/450 Mo/s (sur la base de tests internes ; les performances peuvent varier en fonction de la capacité du disque, de l'appareil hôte, du système d'exploitation et de l'application).",
+            "de": "Einfache Aufrüstung für schnellere Start-, Herunterfahr-, Anwendungsladungs- und Reaktionszeiten (im Vergleich zu einer 2,5” 5400 U/min SATA-Festplatte; basierend auf veröffentlichten Spezifikationen und internen Tests mit PCMark Vantage). Verbesserte Schreibleistung, ideal für typische PC-Workloads. Perfektes Gleichgewicht zwischen Leistung und Zuverlässigkeit. Lese-/Schreibgeschwindigkeiten von bis zu 535 MB/s/450 MB/s (basierend auf internen Tests; die Leistung kann je nach Festplattengröße, Host-Gerät, Betriebssystem und Anwendung variieren)."
         },
         "price": 24.99,
         "category": "home_decor",
-        "image": "Scented_Candle_with_Natural_Ingredients.png",
+        "image": "SanDisk_SSD_PLUS_1TB_Internal_SSD.png",
         "rating": {
             "rate": 4.9,
             "count": 300
@@ -269,84 +269,84 @@ const Catalog = [
     {
         "id": 13,
         "title": {
-            "ru": "Лимитированная версия Raspberry Pi 4 Model B 2GB",
-            "en": "Limited Edition Raspberry Pi 4 Model B 2GB",
-            "fr": "Édition Limitée Raspberry Pi 4 Modèle B 2 Go",
-            "de": "Limitierte Auflage Raspberry Pi 4 Modell B 2GB"
+            "ru": "Acer SB220Q bi 21,5 дюйма Full HD (1920 x 1080) IPS ультратонкий",
+            "en": "Acer SB220Q bi 21.5 inch Full HD (1920 x 1080) IPS Ultra-Slim",
+            "fr": "Acer SB220Q bi 21,5 pouces Full HD (1920 x 1080) IPS Ultra-Fin",
+            "de": "Acer SB220Q bi 21,5 Zoll Full HD (1920 x 1080) IPS Ultra-Slim"
         },
         "description": {
-            "ru": "Raspberry Pi 4 Model B — это однотипный одноплатный компьютер, который имеет более высокую производительность и больше возможностей для подключения, чем его предшественники. Идеален для изучения программирования, создания DIY-проектов, медиаплееров и многого другого.",
-            "en": "The Raspberry Pi 4 Model B is a versatile single-board computer with higher performance and more connectivity options than its predecessors. Ideal for learning programming, creating DIY projects, media players, and much more.",
-            "fr": "Le Raspberry Pi 4 Modèle B est un ordinateur monocarte polyvalent offrant de meilleures performances et plus d'options de connectivité que ses prédécesseurs. Idéal pour apprendre la programmation, créer des projets DIY, des lecteurs multimédias et bien plus encore.",
-            "de": "Der Raspberry Pi 4 Modell B ist ein vielseitiger Einplatinencomputer mit höherer Leistung und mehr Anschlussmöglichkeiten als seine Vorgänger. Ideal zum Programmieren lernen, DIY-Projekte erstellen, Medienplayer und vieles mehr."
+            "ru": "21,5-дюймовый Full HD (1920 x 1080) широкоформатный IPS дисплей и технология Radeon FreeSync. Нет совместимости с креплением VESA. Частота обновления: 75 Гц при использовании порта HDMI. Дизайн без рамки | ультратонкий | время отклика 4 мс | IPS панель. Соотношение сторон 16:9. Поддержка 16,7 миллионов цветов. Яркость 250 нит. Угол наклона от -5 до 15 градусов. Горизонтальный угол обзора - 178 градусов. Вертикальный угол обзора - 178 градусов. Частота 75 Гц.",
+            "en": "21.5-inch Full HD (1920 x 1080) widescreen IPS display with Radeon FreeSync technology. No VESA mount compatibility. Refresh rate: 75 Hz when using HDMI port. Borderless design | ultra-slim | 4 ms response time | IPS panel. Aspect ratio 16:9. Supports 16.7 million colors. Brightness 250 nits. Tilt angle from -5 to 15 degrees. Horizontal viewing angle - 178 degrees. Vertical viewing angle - 178 degrees. Frequency 75 Hz.",
+            "fr": "Écran IPS large de 21,5 pouces Full HD (1920 x 1080) avec technologie Radeon FreeSync. Pas de compatibilité avec le montage VESA. Taux de rafraîchissement : 75 Hz lors de l'utilisation du port HDMI. Design sans cadre | ultra-fin | temps de réponse de 4 ms | panneau IPS. Rapport d'aspect 16:9. Prend en charge 16,7 millions de couleurs. Luminosité de 250 nits. Angle d'inclinaison de -5 à 15 degrés. Angle de vision horizontal - 178 degrés. Angle de vision vertical - 178 degrés. Fréquence de 75 Hz.",
+            "de": "21,5-Zoll Full HD (1920 x 1080) Breitbild-IPS-Display mit Radeon FreeSync-Technologie. Keine VESA-Halterungskompatibilität. Bildwiederholfrequenz: 75 Hz bei Verwendung des HDMI-Anschlusses. Randloses Design | ultra-slim | Reaktionszeit 4 ms | IPS-Panel. Seitenverhältnis 16:9. Unterstützt 16,7 Millionen Farben. Helligkeit 250 Nits. Neigungswinkel von -5 bis 15 Grad. Horizontaler Betrachtungswinkel - 178 Grad. Vertikaler Betrachtungswinkel - 178 Grad. Frequenz 75 Hz."
         },
-        "price": 35,
+        "price": 599,
         "category": "electronics",
-        "image": "Limited_Edition_Raspberry_Pi_4_Model_B_2GB.png",
+        "image": "Acer_SB220Q_bi_21.5_inches_Full_HD.png",
         "rating": {
-            "rate": 4.5,
-            "count": 101
+            "rate": 2.9,
+            "count": 250
         }
     },
     {
         "id": 14,
         "title": {
-            "ru": "Модем TP-LINK TL-WR802N - беспроводной маршрутизатор",
-            "en": "TP-LINK TL-WR802N Modem - Wireless Router",
-            "fr": "Modem TP-LINK TL-WR802N - Routeur Sans Fil",
-            "de": "TP-LINK TL-WR802N Modem - Drahtloser Router"
+            "ru": "Samsung 49-дюймовый CHG90 144 Гц изогнутый игровой монитор (LC49HG90DMNXZA) – Супер ультраширокий экран QLED",
+            "en": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide QLED Screen",
+            "fr": "Moniteur de jeu incurvé Samsung 49 pouces CHG90 144 Hz (LC49HG90DMNXZA) – Super écran QLED ultra-large",
+            "de": "Samsung 49-Zoll CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultra-Wide QLED Bildschirm"
         },
         "description": {
-            "ru": "Поддержка Wi-Fi 802.11n с передачей до 300 Мбит/с. Легкая установка и работа с беспроводной сетью. Компактный и портативный, идеально подходит для путешествий.",
-            "en": "Supports Wi-Fi 802.11n with speeds up to 300Mbps. Easy installation and operation with wireless networks. Compact and portable, perfect for travel.",
-            "fr": "Prend en charge le Wi-Fi 802.11n avec des vitesses allant jusqu'à 300 Mbps. Installation et fonctionnement faciles avec des réseaux sans fil. Compact et portable, parfait pour les voyages.",
-            "de": "Unterstützt Wi-Fi 802.11n mit Geschwindigkeiten von bis zu 300 Mbps. Einfache Installation und Betrieb mit drahtlosen Netzwerken. Kompakt und tragbar, ideal für Reisen."
+            "ru": "49-ДЮЙМОВЫЙ СУПЕР УЛЬТРАШИРОКИЙ ИЗОГНУТЫЙ ИГРОВОЙ МОНИТОР с двумя 27-дюймовыми экранами бок о бок. Технология Quantum Dot (QLED), поддержка HDR и заводская калибровка обеспечивают невероятно реалистичные и точные цвета и контраст. ЧАСТОТА ОБНОВЛЕНИЯ 144 Гц и сверхбыстрое время отклика 1 мс устраняют размытие в движении, искажения и уменьшают задержку ввода.",
+            "en": "49-INCH SUPER ULTRAWIDE CURVED GAMING MONITOR with two 27-inch screens side by side. Quantum Dot (QLED) technology, HDR support, and factory calibration deliver incredibly realistic and accurate colors and contrast. A 144Hz refresh rate and ultra-fast 1ms response time eliminate motion blur, distortions, and reduce input lag.",
+            "fr": "MONITEUR DE JEU INCURVÉ SUPER ULTRA LARGE DE 49 POUCES avec deux écrans de 27 pouces côte à côte. La technologie Quantum Dot (QLED), la prise en charge HDR et l'étalonnage d'usine offrent des couleurs et un contraste incroyablement réalistes et précis. Un taux de rafraîchissement de 144 Hz et un temps de réponse ultra-rapide de 1 ms éliminent le flou de mouvement, les distorsions et réduisent la latence d'entrée.",
+            "de": "49-ZOLL SUPER ULTRA-WIDE CURVED GAMING MONITOR mit zwei 27-Zoll-Bildschirmen nebeneinander. Die Quantum Dot (QLED)-Technologie, HDR-Unterstützung und die werkseitige Kalibrierung liefern unglaublich realistische und präzise Farben und Kontraste. Eine Bildwiederholfrequenz von 144 Hz und eine ultra-schnelle Reaktionszeit von 1 ms beseitigen Bewegungsunschärfe, Verzerrungen und reduzieren die Eingabeverzögerung."
         },
-        "price": 23,
+        "price": 999.99,
         "category": "electronics",
-        "image": "TP-LINK_TL-WR802N_wireless_router.png",
+        "image": "Samsung_49_CHG90_144Hz_Curved_Gaming_Monitor.png",
         "rating": {
-            "rate": 3.7,
-            "count": 160
+            "rate": 2.2,
+            "count": 140
         }
     },
     {
         "id": 15,
         "title": {
-            "ru": "Аудиосистема Bose SoundLink Revolve+ Bluetooth",
-            "en": "Bose SoundLink Revolve+ Bluetooth Speaker",
-            "fr": "Haut-Parleur Bluetooth Bose SoundLink Revolve+",
-            "de": "Bose SoundLink Revolve+ Bluetooth Lautsprecher"
+            "ru": "BIYLACLESEN Женская 3-в-1 Сноубордическая куртка, зимнее пальто",
+            "en": "BIYLACLESEN Women's 3-in-1 Snowboarding Jacket, Winter Coat",
+            "fr": "Veste de snowboard 3-en-1 pour femme BIYLACLESEN, manteau d'hiver",
+            "de": "BIYLACLESEN Damen 3-in-1 Snowboardjacke, Wintermantel"
         },
         "description": {
-            "ru": "Стерео-система с мощным звуком и длительным временем работы. Портативный дизайн для использования в любых условиях. Синхронизация с несколькими устройствами.",
-            "en": "A stereo system with powerful sound and long battery life. Portable design for use in any conditions. Syncs with multiple devices.",
-            "fr": "Un système stéréo avec un son puissant et une longue autonomie. Design portable pour une utilisation dans toutes les conditions. Se synchronise avec plusieurs appareils.",
-            "de": "Ein Stereo-System mit kraftvollem Sound und langer Akkulaufzeit. Tragbares Design für den Einsatz unter allen Bedingungen. Synchronisiert sich mit mehreren Geräten."
+            "ru": "Примечание: куртки соответствуют стандартному размеру США. Пожалуйста, выбирайте размер, как обычно. Материал: 100% полиэстер; съёмная внутренняя подкладка: тёплый флис. Функциональная съёмная подкладка: приятная для кожи, лёгкая и тёплая. Внутреннее пальто с высоким воротником, сохраняет тепло в холодную погоду. Карманы на молнии: 2 кармана для рук на молнии, 2 кармана на груди на молнии (достаточно для хранения карт или ключей) и 1 потайной карман внутри. Карманы на молнии и потайной карман сохранят ваши вещи в безопасности. Удобный дизайн: регулируемый и съёмный капюшон и регулируемые манжеты для защиты от ветра и воды, для комфортной посадки. Дизайн 3-в-1 предлагает больше удобства: можно носить пальто и подкладку вместе или по отдельности в зависимости от сезона и климата.",
+            "en": "Note: Jackets are true to US sizing. Please select your size as usual. Material: 100% polyester; removable inner lining: warm fleece. Functional removable lining: skin-friendly, lightweight, and warm. The inner coat has a high collar, keeping warmth in cold weather. Zippered pockets: 2 zippered hand pockets, 2 zippered chest pockets (sufficient for storing cards or keys), and 1 hidden pocket inside. The zippered pockets and hidden pocket keep your belongings secure. Comfortable design: adjustable and removable hood and adjustable cuffs for wind and water protection, for a comfortable fit. The 3-in-1 design offers more versatility: wear the coat and lining together or separately depending on the season and climate.",
+            "fr": "Remarque : Les vestes sont conformes à la taille américaine. Veuillez choisir votre taille comme d'habitude. Matériau : 100 % polyester ; doublure intérieure amovible : polaire chaude. Doublure fonctionnelle amovible : douce pour la peau, légère et chaude. Le manteau intérieur a un col haut qui conserve la chaleur par temps froid. Poches zippées : 2 poches pour les mains zippées, 2 poches poitrine zippées (suffisantes pour ranger des cartes ou des clés) et 1 poche cachée à l'intérieur. Les poches zippées et la poche cachée gardent vos affaires en sécurité. Design confortable : capuche réglable et amovible et poignets réglables pour une protection contre le vent et l'eau, pour un ajustement confortable. Le design 3-en-1 offre plus de polyvalence : vous pouvez porter le manteau et la doublure ensemble ou séparément selon la saison et le climat.",
+            "de": "Hinweis: Jacken fallen normal aus. Bitte wählen Sie Ihre Größe wie gewohnt. Material: 100 % Polyester; abnehmbare Innenschicht: warme Fleece. Funktionale abnehmbare Innenschicht: hautfreundlich, leicht und warm. Der Innenmantel hat einen hohen Kragen, der in kaltem Wetter Wärme speichert. Mit Reißverschluss versehene Taschen: 2 Reißverschlusstaschen für die Hände, 2 Reißverschlusstaschen auf der Brust (ausreichend für die Aufbewahrung von Karten oder Schlüsseln) und 1 versteckte Tasche innen. Die Reißverschlusstaschen und die versteckte Tasche halten Ihre Wertsachen sicher. Bequemes Design: verstellbare und abnehmbare Kapuze sowie verstellbare Manschetten zum Schutz vor Wind und Wasser für einen bequemen Sitz. Das 3-in-1-Design bietet mehr Vielseitigkeit: Sie können den Mantel und das Innenfutter je nach Saison und Klima zusammen oder separat tragen."
         },
-        "price": 269,
-        "category": "electronics",
-        "image": "Bose_SoundLink_Revolve_Bluetooth.png",
+        "price": 56.99,
+        "category": "women's clothing",
+        "image": "BIYLACLESEN_Womens_Snowboard_Jacket.png",
         "rating": {
-            "rate": 4.6,
-            "count": 278
+            "rate": 2.6,
+            "count": 235
         }
     },
     {
         "id": 16,
         "title": {
             "ru": "Lock and Love Женская кожаная куртка байкер с отстёгивающимся капюшоном из искусственной кожи",
-            "en": "Lock and Love Women's Leather Biker Jacket with Detachable Hood",
-            "fr": "Veste de Moto en Cuir Femme Lock and Love avec Capuche Détachable",
-            "de": "Lock and Love Damen Leder-Bikerjacke mit Abnehmbarer Kapuze"
+            "en": "Lock and Love Women's Faux Leather Biker Jacket with Removable Hood",
+            "fr": "Veste de motard en cuir synthétique pour femme Lock and Love avec capuche amovible",
+            "de": "Lock and Love Damen Kunstleder Bikerjacke mit abnehmbarer Kapuze"
         },
-        "price": 29.95,
         "description": {
             "ru": "100% ПОЛИУРЕТАН (внешний слой), 100% ПОЛИЭСТЕР (подкладка), 75% ПОЛИЭСТЕР, 25% ХЛОПОК (свитер). Материал из искусственной кожи для стиля и комфорта. 2 передних кармана. Куртка из искусственной кожи с джинсовым стилем и отстёгивающимся капюшоном. Кнопка на талии и детализированные швы по бокам. Только ручная стирка, не отбеливать, сушить на верёвке, не гладить.",
-            "en": "100% Polyurethane (outer layer), 100% Polyester (lining), 75% Polyester, 25% Cotton (sweater). Faux leather material for style and comfort. 2 front pockets. Faux leather jacket with denim style and detachable hood. Waist button and detailed side seams. Hand wash only, do not bleach, line dry, do not iron.",
-            "fr": "100% Polyuréthane (couche extérieure), 100% Polyester (doublure), 75% Polyester, 25% Coton (pull). Matériau en cuir synthétique pour le style et le confort. 2 poches avant. Veste en cuir synthétique avec style denim et capuche détachable. Bouton à la taille et coutures latérales détaillées. Lavage à la main uniquement, ne pas blanchir, sécher à plat, ne pas repasser.",
-            "de": "100% Polyurethan (äußere Schicht), 100% Polyester (Futter), 75% Polyester, 25% Baumwolle (Pullover). Kunstledermaterial für Stil und Komfort. 2 Vordertaschen. Kunstlederjacke im Denim-Stil mit abnehmbarer Kapuze. Taillenknopf und detaillierte Seitennähte. Nur Handwäsche, nicht bleichen, an der Leine trocknen, nicht bügeln."
+            "en": "100% POLYURETHANE (outer layer), 100% POLYESTER (lining), 75% POLYESTER, 25% COTTON (sweater). Faux leather material for style and comfort. 2 front pockets. Faux leather jacket with a denim style and a removable hood. Button at the waist and detailed seams at the sides. Hand wash only, do not bleach, line dry, do not iron.",
+            "fr": "100 % POLYURÉTHANE (couche extérieure), 100 % POLYESTER (doublure), 75 % POLYESTER, 25 % COTON (pull). Matériau en cuir synthétique pour le style et le confort. 2 poches avant. Veste en cuir synthétique au style denim avec capuche amovible. Bouton à la taille et coutures détaillées sur les côtés. Lavage à la main uniquement, ne pas blanchir, sécher à l'air libre, ne pas repasser.",
+            "de": "100 % POLYURETHAN (Außenschicht), 100 % POLYESTER (Futter), 75 % POLYESTER, 25 % BAUMWOLLE (Pullover). Kunstledermaterial für Stil und Komfort. 2 Vordertaschen. Kunstlederjacke im Jeansstil mit abnehmbarer Kapuze. Knopf in der Taille und detaillierte Nähte an den Seiten. Nur Handwäsche, nicht bleichen, an der Luft trocknen, nicht bügeln."
         },
+        "price": 29.95,
         "category": "women's clothing",
         "image": "Lock_and_Love_Womens_Leather_Biker_Jacket.png",
         "rating": {
@@ -359,16 +359,16 @@ const Catalog = [
         "title": {
             "ru": "Женская дождевка, ветровка с полосками для восхождений",
             "en": "Women's Rain Jacket, Windbreaker with Stripes for Climbing",
-            "fr": "Veste de Pluie Femme, Coupe-Vent à Rayures pour Escalade",
+            "fr": "Veste de pluie pour femme, coupe-vent avec rayures pour l'escalade",
             "de": "Damen Regenjacke, Windbreaker mit Streifen für das Klettern"
         },
-        "price": 39.99,
         "description": {
             "ru": "Лёгкая, идеально подходит для путешествий или повседневной носки — длинные рукава с капюшоном, регулируемая талия с завязками. Дождевик с застёжкой на молнии и кнопках, полностью с подкладкой в полоску. У дождевика есть 2 боковых кармана, достаточные по размеру для хранения разных вещей. Он прикрывает бёдра, а капюшон достаточно большой, но не чрезмерный. Пришитый капюшон с подкладкой из хлопка и регулируемыми завязками придаёт стильный вид.",
-            "en": "Lightweight, perfect for travel or everyday wear—long sleeves with a hood, adjustable waist with drawstrings. Rain jacket with zipper and button closure, fully lined with stripes. The jacket has 2 side pockets, large enough to store various items. It covers the hips, and the hood is big enough but not excessive. The attached hood with cotton lining and adjustable drawstrings gives a stylish look.",
-            "fr": "Légère, parfaite pour les voyages ou le port quotidien - manches longues avec capuche, taille ajustable avec cordons. Veste de pluie avec fermeture éclair et boutons, entièrement doublée de rayures. La veste a 2 poches latérales, suffisamment grandes pour ranger divers objets. Elle couvre les hanches, et la capuche est assez grande mais pas excessive. La capuche attachée avec doublure en coton et cordons réglables donne un look stylé.",
-            "de": "Leicht, perfekt für Reisen oder den täglichen Gebrauch - lange Ärmel mit Kapuze, verstellbare Taille mit Kordeln. Regenjacke mit Reißverschluss und Knopfverschluss, vollständig gestreift gefüttert. Die Jacke hat 2 Seitentaschen, groß genug, um verschiedene Gegenstände zu verstauen. Sie bedeckt die Hüften, und die Kapuze ist groß genug, aber nicht übertrieben. Die angenähte Kapuze mit Baumwollfutter und verstellbaren Kordeln verleiht einen stilvollen Look."
+            "en": "Lightweight, perfect for travel or everyday wear — long sleeves with a hood, adjustable waist with drawstrings. The rain jacket features a zip and button closure, fully lined in stripes. It has 2 side pockets, large enough for various items. It covers the hips, and the hood is large but not excessive. The attached hood with cotton lining and adjustable drawstrings adds a stylish touch.",
+            "fr": "Légère, parfaite pour les voyages ou une utilisation quotidienne - manches longues avec capuche, taille ajustable avec cordons. La veste de pluie dispose d'une fermeture éclair et de boutons, entièrement doublée de rayures. Elle possède 2 poches latérales, suffisamment grandes pour divers objets. Elle couvre les hanches et la capuche est suffisamment grande mais pas excessive. La capuche attachée avec doublure en coton et cordons réglables ajoute une touche de style.",
+            "de": "Leicht, perfekt für Reisen oder den Alltag - lange Ärmel mit Kapuze, verstellbare Taille mit Kordelzügen. Die Regenjacke hat einen Reißverschluss und einen Knopfverschluss, vollständig mit Streifen gefüttert. Sie verfügt über 2 Seitentaschen, die groß genug für verschiedene Gegenstände sind. Sie bedeckt die Hüften, und die Kapuze ist groß, aber nicht übermäßig. Die angenähte Kapuze mit Baumwollfutter und verstellbaren Kordelzügen verleiht einen stilvollen Look."
         },
+        "price": 39.99,
         "category": "women's clothing",
         "image": "Womens_rain_jacket_windbreaker_with_stripes_for_climbing.png",
         "rating": {
@@ -380,17 +380,17 @@ const Catalog = [
         "id": 18,
         "title": {
             "ru": "Женская футболка с короткими рукавами и вырезом-лодочкой",
-            "en": "Women's Short Sleeve Boat Neck T-Shirt",
-            "fr": "T-shirt Femme à Manches Courtes et Encolure Bateau",
-            "de": "Damen T-Shirt mit Kurzarm und Bootsausschnitt"
+            "en": "Women's Short Sleeve T-Shirt with Boat Neck",
+            "fr": "T-shirt à manches courtes pour femme avec col bateau",
+            "de": "Damen T-Shirt mit kurzen Ärmeln und Bootsausschnitt"
         },
-        "price": 9.85,
         "description": {
             "ru": "95% ВИСКОЗА, 5% СПАНДЕКС, сделано в США или импортировано. Не отбеливать. Лёгкая ткань с отличной эластичностью для комфорта. Ребристые рукава и вырез, двойные швы по нижнему краю.",
-            "en": "95% Viscose, 5% Spandex, made in USA or imported. Do not bleach. Lightweight fabric with excellent stretch for comfort. Ribbed sleeves and neckline, double stitching at the hem.",
-            "fr": "95% Viscose, 5% Élasthanne, fabriqué aux États-Unis ou importé. Ne pas blanchir. Tissu léger avec une excellente élasticité pour le confort. Manches et encolure côtelées, double couture à l'ourlet.",
-            "de": "95% Viskose, 5% Spandex, hergestellt in den USA oder importiert. Nicht bleichen. Leichter Stoff mit exzellenter Dehnbarkeit für Komfort. Gerippte Ärmel und Ausschnitt, doppelte Naht am Saum."
+            "en": "95% VISCOSE, 5% SPANDEX, made in USA or imported. Do not bleach. Lightweight fabric with great elasticity for comfort. Ribbed sleeves and neckline, double-stitched at the hem.",
+            "fr": "95 % VISCOSE, 5 % SPANDEX, fabriqué aux États-Unis ou importé. Ne pas blanchir. Tissu léger avec une excellente élasticité pour le confort. Manches côtelées et encolure, surpiqûres doubles au bas.",
+            "de": "95 % VISKOSE, 5 % SPANDEX, in den USA hergestellt oder importiert. Nicht bleichen. Leichter Stoff mit hervorragender Elastizität für Komfort. Gerippte Ärmel und Ausschnitt, doppelt genäht am Saum."
         },
+        "price": 9.85,
         "category": "women's clothing",
         "image": "Womens_Short_Sleeve_Boat_Neck_T-Shirt.png",
         "rating": {
@@ -403,16 +403,16 @@ const Catalog = [
         "title": {
             "ru": "Opna Женская футболка с короткими рукавами и влагоотводящей тканью",
             "en": "Opna Women's Short Sleeve T-Shirt with Moisture-Wicking Fabric",
-            "fr": "T-shirt Femme à Manches Courtes Opna avec Tissu Évacuation de l'Humidité",
-            "de": "Opna Damen Kurzarm-T-Shirt mit Feuchtigkeitsableitendem Stoff"
+            "fr": "T-shirt à manches courtes pour femme Opna avec tissu évacuant l'humidité",
+            "de": "Opna Damen T-Shirt mit kurzen Ärmeln und feuchtigkeitsableitendem Stoff"
         },
-        "price": 7.95,
         "description": {
             "ru": "100% полиэстер, машинная стирка. 100% катионический полиэстер интерлок. Машинная стирка и предварительная усадка для отличной посадки. Лёгкая, просторная и очень дышащая с влагоотводящей тканью, которая помогает отводить влагу. Мягкая лёгкая ткань с удобным воротником V-образной формы и более стройным силуэтом для дополнительного комфорта.",
-            "en": "100% polyester, machine washable. 100% cationic polyester interlock. Machine washable and pre-shrunk for a great fit. Lightweight, roomy, and very breathable with moisture-wicking fabric that helps to keep you dry. Soft lightweight fabric with a comfortable V-neck and a more fitted silhouette for added comfort.",
-            "fr": "100% polyester, lavable en machine. 100% polyester cationique en interlock. Lavable en machine et pré-rétréci pour un bon ajustement. Léger, spacieux et très respirant avec un tissu qui évacue l'humidité pour vous garder au sec. Tissu léger et doux avec un col en V confortable et une silhouette plus ajustée pour un confort supplémentaire.",
-            "de": "100% Polyester, maschinenwaschbar. 100% kationischer Polyester-Interlock. Maschinenwaschbar und vorgewaschen für eine gute Passform. Leicht, geräumig und sehr atmungsaktiv mit feuchtigkeitsableitendem Stoff, der Sie trocken hält. Weicher, leichter Stoff mit bequemem V-Ausschnitt und schmalerer Silhouette für zusätzlichen Komfort."
+            "en": "100% polyester, machine washable. 100% cationic polyester interlock. Machine washable and pre-shrunk for great fit. Lightweight, roomy, and very breathable with moisture-wicking fabric that helps pull moisture away. Soft lightweight fabric with a comfortable V-neck collar and a slimmer silhouette for added comfort.",
+            "fr": "100 % polyester, lavable en machine. 100 % polyester cationique interlock. Lavable en machine et pré-rétréci pour un excellent ajustement. Tissu léger, ample et très respirant avec un tissu évacuant l'humidité qui aide à éloigner l'humidité. Tissu doux et léger avec un col en V confortable et une silhouette plus élancée pour plus de confort.",
+            "de": "100 % Polyester, maschinenwaschbar. 100 % kationisches Polyester-Interlock. Maschinenwaschbar und vorgewaschen für eine tolle Passform. Leichter, geräumiger und sehr atmungsaktiver Stoff mit feuchtigkeitsableitendem Material, das hilft, Feuchtigkeit abzuleiten. Weicher, leichter Stoff mit einem bequemen V-Ausschnitt und einer schlankeren Silhouette für zusätzlichen Komfort."
         },
+        "price": 7.95,
         "category": "women's clothing",
         "image": "Opna_Womens_Short_Sleeve_T-Shirt_with_Moisture-wicking_Fabric.png",
         "rating": {
@@ -424,17 +424,17 @@ const Catalog = [
         "id": 20,
         "title": {
             "ru": "DANVOUY Женская футболка с короткими рукавами и V-образным вырезом",
-            "en": "DANVOUY Women's Short Sleeve V-Neck T-Shirt",
-            "fr": "T-shirt Femme à Manches Courtes DANVOUY avec Col en V",
-            "de": "DANVOUY Damen Kurzarm T-Shirt mit V-Ausschnitt"
+            "en": "DANVOUY Women's Short Sleeve T-Shirt with V-Neck",
+            "fr": "T-shirt à manches courtes pour femme DANVOUY avec col en V",
+            "de": "DANVOUY Damen T-Shirt mit kurzen Ärmeln und V-Ausschnitt"
         },
-        "price": 12.99,
         "description": {
             "ru": "95% хлопок, 5% спандекс. Особенности: повседневная футболка с короткими рукавами, принтом, V-образным вырезом. Модные футболки. Ткань мягкая и эластичная. Случаи: повседневная носка, офис, пляж, школа, дом, улица. Сезон: весна, лето, осень, зима.",
-            "en": "95% cotton, 5% spandex. Features: casual short sleeve t-shirt with print, V-neck. Trendy t-shirts. Soft and stretchy fabric. Occasions: casual wear, office, beach, school, home, street. Season: spring, summer, fall, winter.",
-            "fr": "95% coton, 5% élasthanne. Caractéristiques : t-shirt décontracté à manches courtes avec imprimé, col en V. T-shirts tendance. Tissu doux et extensible. Occasions : vêtements décontractés, bureau, plage, école, maison, rue. Saison : printemps, été, automne, hiver.",
-            "de": "95% Baumwolle, 5% Spandex. Merkmale: lässiges Kurzarm-T-Shirt mit Druck, V-Ausschnitt. Trendige T-Shirts. Weicher und elastischer Stoff. Anlässe: Freizeitkleidung, Büro, Strand, Schule, Zuhause, Straße. Saison: Frühling, Sommer, Herbst, Winter."
+            "en": "95% cotton, 5% spandex. Features: casual short sleeve t-shirt, printed, V-neck. Fashionable t-shirts. The fabric is soft and elastic. Occasions: casual wear, office, beach, school, home, street. Season: spring, summer, autumn, winter.",
+            "fr": "95 % coton, 5 % spandex. Caractéristiques : t-shirt décontracté à manches courtes, imprimé, col en V. T-shirts à la mode. Le tissu est doux et élastique. Occasions : vêtements décontractés, bureau, plage, école, maison, rue. Saison : printemps, été, automne, hiver.",
+            "de": "95 % Baumwolle, 5 % Spandex. Merkmale: lässiges T-Shirt mit kurzen Ärmeln, bedruckt, V-Ausschnitt. Modische T-Shirts. Der Stoff ist weich und elastisch. Anlässe: legere Kleidung, Büro, Strand, Schule, Zuhause, Straße. Saison: Frühling, Sommer, Herbst, Winter."
         },
+        "price": 12.99,
         "category": "women's clothing",
         "image": "DANVOUY_Womens_Short_Sleeve_V-Neck_T-Shirt.png",
         "rating": {
@@ -447,16 +447,16 @@ const Catalog = [
         "title": {
             "ru": "Fjallraven - Рюкзак Foldsack No. 1, подходит для 15-дюймовых ноутбуков",
             "en": "Fjallraven - Foldsack No. 1 Backpack, fits 15-inch laptops",
-            "fr": "Fjallraven - Sac à Dos Foldsack No. 1, adapté aux ordinateurs portables de 15 pouces",
-            "de": "Fjallraven - Foldsack No. 1 Rucksack, geeignet für 15-Zoll-Laptops"
+            "fr": "Fjallraven - Sac à dos Foldsack No. 1, convient pour les ordinateurs portables de 15 pouces",
+            "de": "Fjallraven - Foldsack No. 1 Rucksack, passend für 15-Zoll-Laptops"
         },
-        "price": 109.95,
         "description": {
             "ru": "Идеальный рюкзак для повседневного использования и прогулок по лесу. Уложите свой ноутбук (до 15 дюймов) в мягкий карман, а также всё необходимое для повседневной жизни.",
-            "en": "The perfect backpack for everyday use and forest walks. Store your laptop (up to 15 inches) in the soft pocket, as well as everything you need for daily life.",
-            "fr": "Le sac à dos parfait pour un usage quotidien et les promenades en forêt. Rangez votre ordinateur portable (jusqu'à 15 pouces) dans la poche douce, ainsi que tout ce dont vous avez besoin pour la vie quotidienne.",
-            "de": "Der perfekte Rucksack für den täglichen Gebrauch und Waldspaziergänge. Bewahren Sie Ihren Laptop (bis zu 15 Zoll) in der weichen Tasche auf, sowie alles, was Sie für den Alltag benötigen."
+            "en": "The perfect backpack for everyday use and forest hikes. Store your laptop (up to 15 inches) in the soft pocket, along with all your daily essentials.",
+            "fr": "Le sac à dos parfait pour une utilisation quotidienne et des randonnées en forêt. Rangez votre ordinateur portable (jusqu'à 15 pouces) dans la poche douce, ainsi que tous vos essentiels quotidiens.",
+            "de": "Der perfekte Rucksack für den täglichen Gebrauch und Waldwanderungen. Bewahren Sie Ihren Laptop (bis zu 15 Zoll) in der weichen Tasche sowie all Ihren täglichen Notwendigkeiten auf."
         },
+        "price": 109.95,
         "category": "men's clothing",
         "image": "Fjallraven_Backpack_Foldsack_No_1.png",
         "rating": {
@@ -469,16 +469,16 @@ const Catalog = [
         "title": {
             "ru": "Мужские повседневные премиум-футболки с облегающим кроем",
             "en": "Men's Casual Premium Slim Fit T-Shirts",
-            "fr": "T-shirts Premium Slim Fit pour Hommes",
-            "de": "Herren Premium Slim Fit T-Shirts"
+            "fr": "T-shirts pour hommes décontractés premium slim fit",
+            "de": "Herren Casual Premium Slim Fit T-Shirts"
         },
-        "price": 22.3,
         "description": {
             "ru": "Облегающий стиль, контрастные реглан-рукава, застежка Henley с тремя пуговицами, легкая и мягкая ткань для комфортного и дышащего ношения. Прочные футболки с круглым вырезом, подходящие для повседневной моды и фанатов бейсбола. Стиль Henley включает круглую горловину с тремя пуговицами.",
-            "en": "Fitted style, contrasting raglan sleeves, Henley closure with three buttons, lightweight and soft fabric for comfortable and breathable wear. Durable crew neck t-shirts suitable for casual fashion and baseball fans. The Henley style features a round neckline with three buttons.",
-            "fr": "Style ajusté, manches raglan contrastantes, fermeture Henley avec trois boutons, tissu léger et doux pour un port confortable et respirant. Robustes t-shirts à col rond, adaptés à la mode décontractée et aux fans de baseball. Der Henley-Stil hat einen runden Ausschnitt mit drei Knöpfen.",
-            "de": "Eng anliegender Stil, kontrastierende Raglanärmel, Henley-Verschluss mit drei Knöpfen, leichtes und weiches Material für komfortables und atmungsaktives Tragen. Strapazierfähige T-Shirts mit Rundhalsausschnitt, geeignet für lässige Mode und Baseball-Fans. Der Henley-Stil umfasst einen runden Halsausschnitt mit drei Knöpfen."
+            "en": "Fitted style, contrasting raglan sleeves, Henley button closure with three buttons, lightweight and soft fabric for comfortable, breathable wear. Durable crew neck t-shirts suitable for casual fashion and baseball fans. Henley style features a round neck with three buttons.",
+            "fr": "Style ajusté, manches raglan contrastées, fermeture à boutons Henley avec trois boutons, tissu léger et doux pour un port confortable et respirant. Durables t-shirts à col rond, adaptés à la mode décontractée et aux fans de baseball. Der Henley-Stil verfügt über einen runden Halsausschnitt mit drei Knöpfen.",
+            "de": "Fitted-Style, kontrastierende Raglanärmel, Henley-Knopfverschluss mit drei Knöpfen, leichtes und weiches Material für bequemen, atmungsaktiven Tragekomfort. Robuste Rundhals-T-Shirts, die für lässige Mode und Baseball-Fans geeignet sind. Der Henley-Stil verfügt über einen runden Ausschnitt mit drei Knöpfen."
         },
+        "price": 22.3,
         "category": "men's clothing",
         "image": "Mens_Casual_Premium_Slim_Fit_T-Shirts.png",
         "rating": {

@@ -1,7 +1,9 @@
 "use client"
 import { useState, useEffect } from "react"
+import { useLocalization } from "@/components/Localization/Localization";
 import CatalogDB from "@/components/Catalog"
 import Loader from "@/components/Loader/Loader";
+
 
 import Image from "next/image";
 import imgXbox from "@/assets/catalog/Xbox_consoles_category.png"
@@ -17,6 +19,9 @@ import "./CatalogTop.scss"
 import "./CatalogTopFeatures.scss"
 
 export default function CatalogTop() {
+    // Локализация
+    const Loc = useLocalization("CatalogTop")
+
     const [CatalogData, setCatalogData] = useState([])
     useEffect(() => {
         console.log("CatalogDB", CatalogDB);
@@ -32,37 +37,37 @@ export default function CatalogTop() {
                             <div className="column">
                                 <div className="column__text">
                                     <div className="line"></div>
-                                    <p className="text-dark-blue">The best place to play</p>
+                                    <p className="text-dark-blue">{Loc.theBestPlaceToPlay}</p>
                                 </div>
-                                <h1>Xbox Consoles</h1>
-                                <p className="text-gray">Save up to 50% on select Xbox games. Get 3 months of PC Game Pass for $2 USD.</p>
+                                <h1>{Loc.xboxConsoles}</h1>
+                                <p className="text-gray">{Loc.saveUp}</p>
                                 <button className="big">
-                                    Купить
+                                    {Loc.buttonBuy}
                                     <Image src={svgArrowRight} alt="arrow-right" />
                                 </button>
                             </div>
-                            <Image src={imgXbox} alt="xbox" />
+                            <Image src={imgXbox} alt="xbox" priority={true} />
                             <p className="catalog-top__big-cost text-white">$299</p>
                         </div>
                         <div className="catalog-top__column">
                             <div className="catalog-top__small">
-                                <p className="text-yellow">Summer Sales</p>
-                                <h4 className="text-white">New Google Pixel 6 Pro</h4>
+                                <p className="text-yellow">{Loc.summerSales}</p>
+                                <h4 className="text-white">{Loc.newGooglePixel}</h4>
                                 <button>
-                                    Купить
+                                    {Loc.buttonBuy}
                                     <Image src={svgArrowRight} alt="arrow-right" />
                                 </button>
                                 <div className="product__badge">
-                                    <div className="badge discount big">29% Скидка</div>
+                                    <div className="badge discount big">{Loc.badge}</div>
                                 </div>
                             </div>
                             <div className="catalog-top__small">
                                 <Image src={imgProduct2} alt="product" />
                                 <div className="column">
-                                    <h4>Xiaomi FlipBuds Pro</h4>
+                                    <h4>{Loc.xiaomiFlipBudsPro}</h4>
                                     <p className="text-blue">$299 USD</p>
                                     <button>
-                                        Купить
+                                        {Loc.buttonBuy}
                                         <Image src={svgArrowRight} alt="arrow-right" />
                                     </button>
                                 </div>
@@ -77,32 +82,32 @@ export default function CatalogTop() {
                 <div className="catalog-top__feature-row">
                     <Image src={svgPackage} alt="package" />
                     <div>
-                        <p>Fasted Delivery</p>
-                        <p className="text-gray">Delivery in 24/H</p>
+                        <p>{Loc.features.title1}</p>
+                        <p className="text-gray">{Loc.features.subTitle1}</p>
                     </div>
                 </div>
                 <div className="hr"></div>
                 <div className="catalog-top__feature-row">
                     <Image src={svgTrophy} alt="trophy" />
                     <div>
-                        <p>24 Hours Return</p>
-                        <p className="text-gray">100% money-back guarantee</p>
+                        <p>{Loc.features.title2}</p>
+                        <p className="text-gray">{Loc.features.subTitle2}</p>
                     </div>
                 </div>
                 <div className="hr"></div>
                 <div className="catalog-top__feature-row">
                     <Image src={svgCredit} alt="credit-card" />
                     <div>
-                        <p>Secure Payment</p>
-                        <p className="text-gray">Your money is safe</p>
+                        <p>{Loc.features.title3}</p>
+                        <p className="text-gray">{Loc.features.subTitle3}</p>
                     </div>
                 </div>
                 <div className="hr"></div>
                 <div className="catalog-top__feature-row">
                     <Image src={svgHeadphones} alt="headphones" />
                     <div>
-                        <p>Support 24/7</p>
-                        <p className="text-gray">Live contact/message</p>
+                        <p>{Loc.features.title4}</p>
+                        <p className="text-gray">{Loc.features.subTitle4}</p>
                     </div>
                 </div>
             </div>
